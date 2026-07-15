@@ -265,3 +265,15 @@ color:#0A66C2;
     border-radius:20px;
     transition:2s;
 }
+
+.skill-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:8px;
+}
+
+.skill-header span{
+    font-size:18px;
+    font-weight:600;
+}
