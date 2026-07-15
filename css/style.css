@@ -388,3 +388,72 @@ background:#004182;
 background:#444;
 
 }
+
+/* ================= EXPERIENCE ================= */
+
+.experience{
+    padding:100px 10%;
+    background:#f8f9fc;
+}
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:auto;
+}
+
+.timeline::after{
+    content:"";
+    position:absolute;
+    width:4px;
+    background:#0A66C2;
+    top:0;
+    bottom:0;
+    left:50%;
+    margin-left:-2px;
+}
+
+.timeline-item{
+    position:relative;
+    width:50%;
+    padding:20px 40px;
+}
+
+.timeline-item:nth-child(odd){
+    left:0;
+}
+
+.timeline-item:nth-child(even){
+    left:50%;
+}
+
+.timeline-content{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.timeline-content:hover{
+    transform:scale(1.03);
+}
+
+.timeline-content h3{
+    color:#0A66C2;
+    margin-bottom:10px;
+}
+
+.timeline-content h4{
+    margin-bottom:8px;
+}
+
+.timeline-content span{
+    color:gray;
+    font-size:14px;
+}
+
+.timeline-content p{
+    margin-top:15px;
+    line-height:28px;
+}
