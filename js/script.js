@@ -102,3 +102,32 @@ card.style.transform="translateY(0)";
 },index*300);
 
 });
+
+// ================= TIMELINE ANIMATION =================
+
+const timelineItems = document.querySelectorAll(".timeline-content");
+
+const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.style.opacity="1";
+            entry.target.style.transform="translateY(0)";
+
+        }
+
+    });
+
+});
+
+timelineItems.forEach(item=>{
+
+    item.style.opacity="0";
+    item.style.transform="translateY(50px)";
+    item.style.transition="0.8s";
+
+    observer.observe(item);
+
+});
