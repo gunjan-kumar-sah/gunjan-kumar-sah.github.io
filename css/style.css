@@ -678,3 +678,77 @@ cursor:pointer;
 background:#004182;
 
 }
+
+/* ================= BLOGS ================= */
+
+.blogs{
+
+padding:100px 10%;
+
+background:#ffffff;
+
+}
+
+.blog-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.blog-card{
+
+background:#f8f9fc;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+transition:.4s;
+
+}
+
+.blog-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.blog-card h3{
+
+color:#0A66C2;
+
+margin-bottom:15px;
+
+}
+
+.blog-card p{
+
+line-height:28px;
+
+margin-bottom:25px;
+
+}
+
+.read-btn{
+
+display:inline-block;
+
+padding:12px 25px;
+
+background:#0A66C2;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+}
