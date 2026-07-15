@@ -153,3 +153,19 @@ card.style.transform="translateY(0)";
 },index*250);
 
 });
+
+// ================= CONTACT FORM =================
+
+const form = document.querySelector(".contact-form");
+
+form.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+
+    alert("Thank you " + name + "! Your message has been received.");
+
+    form.reset();
+
+});
