@@ -63,3 +63,20 @@ setTimeout(type,isDeleting?60:120);
 }
 
 type();
+// ================= SKILL ANIMATION =================
+
+window.addEventListener("load", () => {
+
+    document.querySelector(".html").style.width = "95%";
+
+    document.querySelector(".css").style.width = "90%";
+
+    document.querySelector(".javascript").style.width = "85%";
+
+    document.querySelector(".python").style.width = "92%";
+
+    document.querySelector(".java").style.width = "80%";
+
+    document.querySelector(".git").style.width = "88%";
+
+});
