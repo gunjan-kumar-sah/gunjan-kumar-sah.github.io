@@ -460,3 +460,99 @@ background:#444;
     margin-top:15px;
     line-height:28px;
 }
+
+/* ================= CERTIFICATES ================= */
+
+.certificates{
+
+padding:100px 10%;
+
+background:white;
+
+}
+
+.certificate-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.certificate-card{
+
+background:#f7f9fc;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+transition:.4s;
+
+}
+
+.certificate-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.2);
+
+}
+
+.certificate-card h3{
+
+color:#0A66C2;
+
+margin-bottom:15px;
+
+}
+
+.certificate-card p{
+
+margin:15px 0;
+
+}
+
+.certificate-card span{
+
+display:block;
+
+margin-bottom:20px;
+
+color:green;
+
+font-weight:bold;
+
+}
+
+.certificate-btn{
+
+display:inline-block;
+
+padding:12px 25px;
+
+background:#0A66C2;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.certificate-btn:hover{
+
+background:#004182;
+
+}
