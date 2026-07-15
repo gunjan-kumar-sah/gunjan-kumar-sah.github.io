@@ -559,68 +559,122 @@ background:#004182;
 
 }
 
-<!-- ================= CONTACT SECTION ================= -->
 
-<section id="contact" class="contact">
+/* ================= CONTACT ================= */
 
-    <h2 class="section-title">Get In Touch</h2>
+.contact{
 
-    <div class="contact-container">
+padding:100px 10%;
 
-        <div class="contact-info">
+background:#f7f9fc;
 
-            <h3>Let's Connect 👋</h3>
+}
 
-            <p>
-                Feel free to contact me for internships,
-                collaborations or software development opportunities.
-            </p>
+.contact-container{
 
-            <p><strong>Email:</strong> youremail@gmail.com</p>
+display:grid;
 
-            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+grid-template-columns:1fr 1fr;
 
-            <p><strong>Location:</strong> Bihar, India</p>
+gap:60px;
 
-            <div class="social-links">
+margin-top:50px;
 
-                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+}
 
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+.contact-info h3{
 
-            </div>
+font-size:35px;
 
-        </div>
+color:#0A66C2;
 
-        <form class="contact-form">
+margin-bottom:20px;
 
-            <input
-                type="text"
-                id="name"
-                placeholder="Your Name"
-                required
-            >
+}
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Your Email"
-                required
-            >
+.contact-info p{
 
-            <textarea
-                id="message"
-                rows="6"
-                placeholder="Your Message"
-                required
-            ></textarea>
+line-height:30px;
 
-            <button type="submit">
-                Send Message
-            </button>
+margin-bottom:15px;
 
-        </form>
+}
 
-    </div>
+.social-links{
 
-</section>
+margin-top:25px;
+
+}
+
+.social-links a{
+
+display:inline-block;
+
+margin-right:20px;
+
+text-decoration:none;
+
+padding:12px 22px;
+
+background:#0A66C2;
+
+color:white;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.social-links a:hover{
+
+background:#004182;
+
+}
+
+.contact-form{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+padding:15px;
+
+margin-bottom:20px;
+
+border:1px solid #ddd;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.contact-form button{
+
+padding:15px;
+
+background:#0A66C2;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+.contact-form button:hover{
+
+background:#004182;
+
+}
