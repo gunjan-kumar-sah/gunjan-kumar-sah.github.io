@@ -218,3 +218,48 @@ font-size:40px;
 color:#0A66C2;
 
 }
+
+/* ================= SKILLS ================= */
+
+.skills{
+    padding:100px 10%;
+    background:#f7f9fc;
+}
+
+.section-title{
+    text-align:center;
+    font-size:42px;
+    color:#0A66C2;
+    margin-bottom:60px;
+}
+
+.skills-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.skill{
+    margin-bottom:30px;
+}
+
+.skill span{
+    font-size:20px;
+    font-weight:600;
+}
+
+.progress{
+    width:100%;
+    height:18px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.progress-bar{
+    height:100%;
+    width:0%;
+    background:#0A66C2;
+    border-radius:20px;
+    transition:2s;
+}
